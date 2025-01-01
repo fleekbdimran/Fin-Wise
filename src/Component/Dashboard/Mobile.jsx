@@ -8,10 +8,7 @@ const Mobile = () => {
 
 <div className="flex  items-center justify-center mx-auto  w-[826.88px] h-[487.68px] top-[4476px] left-[307px] gap-[120px]">
 <div>
-{/* <h1 className="text-3xl font-bold text-gray-800 mb-4">
-    Download Our Mobile App
-</h1>
-<p className="text-gray-600 mb-8">Study Abroad Guidance at Your Fingertips</p> */}
+
 <div className="w-[434px] h-[435.1px] mt-[200px]">
         <img src={store} alt="store" />
 

@@ -12,6 +12,8 @@ const OurService = () => {
         <>
             <OurServiceText></OurServiceText>
             <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+
+                
                 <div className="max-w-7xl mx-auto text-center">
 
                     <h2 className="text-[40px] font-extrabold text-[#006B7F] leading-[60px] tracking-[0.5px] text-center">Our Services</h2>

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
          {/* <ContactUsText /> */}
-      <div className=" md:px-20 lg:px-40 mt-20">
+      <div className=" md:px-20 lg:px-40 mt-[-290px]">
         {/* Main Container */}
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 

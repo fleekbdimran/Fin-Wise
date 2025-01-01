@@ -5,10 +5,10 @@ import Hands from '../../image/Hand.png';
 
 const TypesOfUPASLC = () => {
     return (
-        <div className="min-h-screen  from-blue-50 to-white py-12">
+        <div className="min-h-screen  from-blue-50 to-white py-12 mt-[-30px]">
             <div className="container mx-auto px-4 text-center">
-                <h1 className="text-3xl font-bold text-gray-800 mb-8">Types of UPAS/LC</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <h1 className="text-3xl font-bold text-gray-800 mb-8  ">Types of UPAS/LC</h1>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-[70px]">
                     {/* Personal */}
                     <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition">
                         <div className="flex justify-center mb-4">

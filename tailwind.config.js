@@ -21,7 +21,10 @@ module.exports = {
       backgroundImage: {
         // 'aboutimage': "url('/AboutBack.png')",
         
-      }
+      },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+      },
     },
   },
   content: [
