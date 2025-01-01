@@ -72,7 +72,7 @@ const AboutUsText = () => {
         >
           <div className="w-full flex justify-center items-center mb-4">
             <h2 className="font-poppins font-bold text-3xl leading-tight text-center">
-              About Us
+              About Us Test
             </h2>
           </div>
           <div>
