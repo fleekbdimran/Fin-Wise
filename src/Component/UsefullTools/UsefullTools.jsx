@@ -1,9 +1,12 @@
 import React from 'react'
 import clarityFormLine from '../../image/Charts.png';
+import { PieChart } from 'react-minimal-pie-chart';
+import CurrencyConverter from './CurrencyConverter';
 
 const UsefullTools = () => {
     return (
-        <div>
+       <>
+          <div>
             <div className="container mx-auto mt-32">
                 <div className="flex justify-between gap-10">
                     {/* <!-- Left Section --> */}
@@ -18,11 +21,11 @@ const UsefullTools = () => {
                         </ul>
                     </div>
 
-                      {/* <!-- Right Section --> */}
+                    {/* <!-- Right Section --> */}
                     <div className='bg-white shadow-lg rounded-lg p-6 flex-1 w-[400px]'>
-                    <h3 className="text-lg font-semibold bg-white text-gray-800 mb-6 text-center">Results in Chart</h3>
-                      <div className="flex flex-wrap gap-3">
-                       
+                        <h3 className="text-lg font-semibold bg-white text-gray-800 mb-6 text-center">Results in Chart</h3>
+                        <div className="flex flex-wrap gap-3">
+
 
                             {/* Card 1 */}
                             <div className="bg-white  shadow-lg rounded-lg p-6 flex-1 w-[400px]">
@@ -51,7 +54,7 @@ const UsefullTools = () => {
                                 </div>
                             </div>
 
-                            
+
 
                             {/* Card 2 */}
                             <div className="bg-white shadow-lg rounded-lg p-6 flex-1 w-[400px]">
@@ -72,7 +75,44 @@ const UsefullTools = () => {
 
                                             <div className="w-[131px] h-[131px] rounded-full flex items-center justify-center">
                                                 {/* Chart Placeholder */}
-                                                <img src={clarityFormLine} alt="Clarity Form" className="w-full h-auto" />
+                                                {/* <img src={clarityFormLine} alt="Clarity Form" className="w-full h-auto" /> */}
+                                                {/* <PieChart
+                                                    data={[
+                                                        { title: 'One', value: 10, color: '#E38627' },
+                                                        { title: 'Two', value: 15, color: '#C13C37' },
+                                                        { title: 'Three', value: 20, color: '#6A2135' },
+                                                    ]}
+                                                    label={({ dataEntry }) => `${dataEntry.title}`}
+                                                    labelStyle={{
+                                                        fontSize: '5px',
+                                                        fontWeight: 'bold',
+                                                        fill: 'white',
+                                                    }}
+                                                    labelPosition={50}
+                                                /> */}
+                                                <div className="flex items-center justify-center h-screen">
+                                                    <div className="relative w-25 h-25">
+                                                        <PieChart
+                                                            data={[
+                                                                { title: '6', value: 6, color: '#FF6B6B' },
+                                                                { title: '6', value: 6, color: '#FFD93D' },
+                                                                { title: '4', value: 4, color: '#6BCB77' },
+                                                            ]}
+                                                            label={({ dataEntry }) => `${dataEntry.title}`}
+                                                            labelStyle={{
+                                                                fontSize: "6px",
+                                                                fontWeight: "bold",
+                                                                fill: "#fff",
+                                                            }}
+                                                            labelPosition={50}
+                                                        />
+                                                        <div className="absolute inset-0 flex items-center justify-center">
+                                                            <span className=" font-bold">12</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -92,6 +132,9 @@ const UsefullTools = () => {
                 </div>
             </div>
         </div>
+
+        <CurrencyConverter></CurrencyConverter>
+       </>
     )
 }
 

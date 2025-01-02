@@ -109,7 +109,7 @@ const Header = () => {
             <Link to="/contactus" className="hover:text-blue-600 w-full text-center">
               Contact Us
             </Link>
-            <Link to="/" className="hover:text-blue-600 w-full text-center">
+            <Link to="/usefulltools" className="hover:text-blue-600 w-full text-center">
               Useful Tools
             </Link>
             <Link
