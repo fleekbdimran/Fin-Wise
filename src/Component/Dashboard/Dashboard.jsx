@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Mobile from './Mobile';
 import HerobackgroundImage from '../../image/heroBG.png';
 
+
 const Dashboard = () => {
   return (
 
@@ -71,6 +72,8 @@ const Dashboard = () => {
       <div className='mt-[50px]'>
         <Mobile></Mobile>
       </div>
+
+   
 
     </>
 

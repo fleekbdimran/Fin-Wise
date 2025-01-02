@@ -19,7 +19,7 @@ const Header = () => {
             <img
               src={logo}
               alt="FinWise Logo"
-              className="w-10 h-10 rounded-full shadow-md"
+              className="w-[69.87px] h-[60px] "
             />
             <span className="text-orange-500 font-bold text-2xl ml-2">
               Fin<span className="text-gray-800">Wise</span>
@@ -38,7 +38,7 @@ const Header = () => {
           <Link to="/contactus" className="hover:text-blue-600">
             Contact Us
           </Link>
-          <Link to="/" className="hover:text-blue-600">
+          <Link to="/usefulltools" className="hover:text-blue-600">
             Useful Tools
           </Link>
         </div>

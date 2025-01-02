@@ -10,6 +10,7 @@ import Footer from "./Pages/Footer";
 import ContactUs from './Component/ContactUs/ContactUs';
 import OurService from "./Component/OurService/OurService";
 import Dashboard from "./Component/Dashboard/Dashboard";
+import UsefullTools from "./Component/UsefullTools/UsefullTools";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/ourservice" element={<OurService />} />
+          <Route path="/usefulltools" element={<UsefullTools />} />
           
           
         </Routes>

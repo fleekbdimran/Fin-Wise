@@ -16,7 +16,7 @@ const Contact = () => {
             </div>
 
             <div>
-              <p className="w-[434px] h-[120px] text-gray-800  leading-[30px] text-center mt-[-150px] text-base"
+              <p className="w-[434px] h-[120px] text-gray-800  leading-[30px] text-center mt-[-150px] text-base text-justify"
                 style={{ fontFamily: 'Poppins', fontWeight: 500, fontSize: '20px' }}>
                 FinWise makes loan applications easy.
                 Submit your form, connect with banks and corporations, and track your loan status effortlessly.
