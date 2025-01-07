@@ -5,6 +5,10 @@ import CurrencyConverter from './CurrencyConverter';
 
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
+import LoanApplication from './LoanApplication';
+import RefienceSelection from './RefienceSelection';
+import UPASApplication from './UPASApplication';
+import Profile from './Profile';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -192,6 +196,10 @@ const UsefullTools = () => {
             </div>
 
             <CurrencyConverter></CurrencyConverter>
+            <LoanApplication></LoanApplication>
+            <RefienceSelection></RefienceSelection>
+            <UPASApplication></UPASApplication>
+            <Profile></Profile>
 
 
         </>

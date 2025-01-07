@@ -3,6 +3,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Finwiselogo from '../image/FINWISE LOGO 1.png';
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -68,8 +70,11 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
-          <p className="text-sm">+8801790188891</p>
-          <p className="text-sm">info@finwise.com.bd</p>
+          <p className="text-sm">
+            <span><FaPhoneAlt /></span>
+            +8801790188891
+          </p>
+          <p className="text-sm"><span><MdEmail /></span>info@finwise.com.bd</p>
         </div>
 
         {/* Company Links */}
